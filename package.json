@@ -1,0 +1,54 @@
+{
+  "name": "typeorm-polymorphic-relationships",
+  "version": "0.0.1",
+  "description": "typeorm polymorphic relationships",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require ts-node/register test/*.ts test/**/*.ts",
+    "build": "tsc",
+    "lint": "eslint src --ext .ts --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lywzx/typeorm-polymorphic-relationships.git"
+  },
+  "keywords": [
+    "typeorm",
+    "polymorphic",
+    "relationships",
+    "typescript"
+  ],
+  "author": {
+    "name": "liuyang",
+    "email": "liuyang@lyblog.net"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lywzx/typeorm-polymorphic-relationships/issues"
+  },
+  "homepage": "https://github.com/lywzx/typeorm-polymorphic-relationships#readme",
+  "devDependencies": {
+    "@types/chai": "^4.2.7",
+    "@types/mocha": "^5.2.7",
+    "@typescript-eslint/eslint-plugin": "^2.13.0",
+    "@typescript-eslint/parser": "^2.13.0",
+    "chai": "^4.2.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "mocha": "^6.2.2",
+    "prettier": "^1.19.1",
+    "rollup": "^1.27.14",
+    "rollup-plugin-buble": "^0.19.8",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-includepaths": "^0.2.3",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-replace": "^2.2.0",
+    "rollup-plugin-typescript2": "^0.25.3",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.4"
+  },
+  "dependencies": {
+    "typeorm": "^0.2.22"
+  }
+}
